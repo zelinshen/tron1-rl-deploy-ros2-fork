@@ -48,7 +48,7 @@ HardwareLoop::HardwareLoop(std::unique_ptr<robot_hw::HardwareBase> &hardware, co
       return;
     }
 
-    // Configure hardware information
+    // Configure hardware information // TODO: mark here
     std::string jointNamesPrint;
     hardware_interface::HardwareInfo hardwareinfo;
     for (const auto &joint_name : jointNames_) {
