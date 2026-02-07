@@ -16,3 +16,4 @@ log/*
 
 # Custom
 AGENTS.md
+COLCON_IGNORE
